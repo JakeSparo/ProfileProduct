@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:background="#ffffff"
+    >
+
+    <Button
+        android:id="@+id/anim_demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="动画集合"
+        />
+
+    <Button
+        android:id="@+id/gsensor_demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="G-Sensor"
+        />
+
+    <Button
+        android:id="@+id/noti_demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="通知集合"
+        />
+
+    <Button
+        android:id="@+id/media_demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多媒体"
+        />
+</LinearLayout>
